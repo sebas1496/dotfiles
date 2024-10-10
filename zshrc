@@ -70,3 +70,7 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+eval "$(direnv hook zsh)"
+export BROWSER="/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"
+export GH_BROWSER="'/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'"
+eval "$(direnv hook zsh)"
